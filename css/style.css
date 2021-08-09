@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body 
 {
   margin: 0;
@@ -5,7 +8,7 @@ body
 }
 .hero {
   /* Sizing */
-  width ; 100vw;
+  width : 100vw;
   height: 100vh;
 
   /* Flexbox stuff */
@@ -30,25 +33,24 @@ body
   height: 100vh;
 
   /* Flexbox stuff */
-  display: lex;
+  display: Flex;
   justify-content: center;
   /* Text styles */
   text-align: left;
   
   /* Background styles */
-  background-image: "images/AdobeStock_297212240.jpeg";
+  background-image: url("../images/AdobeStock_297212240.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachemt: fixed;
+  background-attachment: fixed;
 }
-{
-   color:white;
-   background-color: black;
-}
+
 header {
    display:flex;
    justify-content: space-between;
+   color:white;
+   background-color: black;
 }
 .logo{
    width: 10%;
@@ -96,7 +98,6 @@ nav{
  
  .skill-item > img { 
    display: block;
-   width: ;
    margin-left: auto;
    margin-right: auto;
    text-align: center;
