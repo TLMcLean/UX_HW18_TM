@@ -1,4 +1,48 @@
-body {
+body 
+{
+  margin: 0;
+  font-family: sans-serif;
+}
+.hero {
+  /* Sizing */
+  width ; 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: left;
+}
+.hero h1 {
+  /* Text sytles*/
+  font-size: 3em;
+
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+.hero {
+  /* Sizing*/
+  width:100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: lex;
+  justify-content: center;
+  /* Text styles */
+  text-align: left;
+  
+  /* Background styles */
+  background-image: "images/AdobeStock_297212240.jpeg";
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachemt: fixed;
+}
+{
    color:white;
    background-color: black;
 }
@@ -7,7 +51,7 @@ header {
    justify-content: space-between;
 }
 .logo{
-   width: 30%;
+   width: 10%;
 }
 a{
    padding: 5%;
@@ -17,6 +61,7 @@ a{
 nav{
    width: 30%;
 }
+
 * {
    box-sizing: border-box;
  }
